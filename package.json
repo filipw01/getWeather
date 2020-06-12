@@ -4,19 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc index.ts --esModuleInterop && node index Poznań 10005 Washington",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc index.ts --esModuleInterop && node index",
+    "test": "npm start -- 'New York' 10005 Tokyo 'São Paulo' Pluto"
   },
   "author": "Filip Wachowiak",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^14.0.13",
     "dotenv": "^8.2.0",
+    "lodash.flow": "^3.5.0",
     "node-fetch": "^2.6.0",
     "normalize-url": "^5.0.0",
     "typescript": "^3.9.5"
   },
   "devDependencies": {
+    "@types/lodash.flow": "^3.5.6",
     "@types/node-fetch": "^2.5.7"
   }
 }
