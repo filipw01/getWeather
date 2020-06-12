@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "tsc index.ts --esModuleInterop && node index Poznań 10005 Washington",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Filip Wachowiak",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^14.0.13",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "normalize-url": "^5.0.0",
     "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.7"
   }
 }
