@@ -2,7 +2,7 @@
 Recruitment task for invisible-tech
 
 ## Configuration
-Rename `.env-template` to `.env` and provide your API key for [OpenWeatherAPI](https://openweathermap.org/api)
+Rename `.envTemplate` to `.env` and provide your API key for [OpenWeatherAPI](https://openweathermap.org/api)
 
 ## Running
 First install repository
